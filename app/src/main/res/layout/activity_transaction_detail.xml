@@ -1,0 +1,42 @@
+<!-- app/src/main/res/layout/activity_transaction_detail.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaction Details"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Amount"/>
+        <TextView android:id="@+id/dAmount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date - Time"/>
+        <TextView android:id="@+id/dDateTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Paid / Received"/>
+        <TextView android:id="@+id/dDir" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mode"/>
+        <TextView android:id="@+id/dMode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Transaction ID"/>
+        <TextView android:id="@+id/dTxnId" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UPI ID"/>
+        <TextView android:id="@+id/dUpiId" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reason / Description"/>
+        <TextView android:id="@+id/dDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-" android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
